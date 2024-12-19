@@ -1,0 +1,24 @@
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    float: left;
+    cursor: pointer;
+}
+
+a:visited, a:link {
+    color: black;
+}
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #af3838;
+}
